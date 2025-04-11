@@ -1,0 +1,106 @@
+/* Outer box for the skills section */
+.skills-box {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 800px;
+  }
+  
+  
+  .skills-box h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  
+  .skill-card {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skill-card h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .skill-card span {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+ 
+  .progress {
+    height: 12px;
+    background: #e9ecef;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    transition: width 0.5s ease;
+  }
+  
+  
+  .about-text h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+ 
+  .courses-section h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .course-item {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .course-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-item h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .course-item span {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+ 
+  .course-progress {
+    background: #007bff;
+    transition: width 0.5s ease;
+  }

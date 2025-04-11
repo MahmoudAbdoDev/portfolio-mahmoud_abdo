@@ -1,0 +1,128 @@
+.custom-container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.portfolio-section {
+  padding: 60px 0;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* ✅ Project Grid */
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-item {
+  width: calc(33.33% - 20px);
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+/* ✅ Hover Effect */
+.project-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* ✅ Project Box */
+.project-square {
+  width: 100%;
+  height: 220px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ✅ Background Images */
+.real-estate {
+  background: url('/assets/real-estate.png') center/cover no-repeat;
+}
+
+.restaurant {
+  background: url('/assets/Restaurant.png') center/cover no-repeat;
+}
+
+.school-educational {
+  background: url('/assets/School-Educational.png') center/cover no-repeat;
+}
+
+.fitness {
+  background: url('/assets/fitness.png') center/cover no-repeat;
+}
+
+.beauty-center {
+  background: url('/assets/beauty-center.png') center/cover no-repeat;
+}
+
+.relax-interior {
+  background: url('/assets/Relax-Interior.png') center/cover no-repeat;
+}
+
+.photography {
+  background: url('/assets/Photography.png') center/cover no-repeat;
+}
+
+/* ✅ Overlay Effect */
+.project-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.project-item:hover .project-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ✅ Project Name Styling */
+.project-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* ✅ Links */
+a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .project-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .project-item {
+    width: 100%;
+  }
+}

@@ -1,0 +1,72 @@
+/* جعل الصفحة تأخذ الحجم الكامل */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 20px;
+  }
+  
+  /* تصميم البطاقة */
+  .contact-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* تحسين العناوين */
+  .contact-card h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* تصميم القائمة */
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  /* أزرار الروابط */
+  .contact-btn {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* ألوان الأزرار */
+  .email { background: #007bff; color: white; }
+  .phone { background: #28a745; color: white; }
+  .whatsapp { background: #25d366; color: white; }
+  .linkedin { background: #0077b5; color: white; }
+  .github { background: #333; color: white; }
+  
+  /* تأثير hover */
+  .contact-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+  
